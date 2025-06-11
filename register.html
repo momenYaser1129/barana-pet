@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/pet-logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">contact</a>
+              </li>
+            </ul>
+            <div class="socail">
+              <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <a class="Log-in-register-box-parent" href="#">
+                <i class="fa-regular fa-user Log-in-register-box-parent"></i>
+                <ul class="Log-in-register-box">
+                  <li> <a href="login.html">Log in</a></li>
+                  <li> <a href="register.html">register</a> </li>
+                </ul>
+              </a>
+              <a class="heart" href="#">
+                <i class="fa-regular fa-heart"></i>
+              </a>
+              <a class="lock" href="#">
+                <i class="fa-solid fa-lock"></i>
+              </a>
+              <a href="#"> $ Currency </a>
+              <a class="flag" href="#">
+                <img src="imgs/en-gb.png" alt="Falg" />
+                Language
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- Start Section loh in  -->
+    <section class="sign-in log-in contact">
+      <div class="container">
+        <div class="row row1">
+          <div class="col-lg-12">
+            <div class="item">
+              <a class="a-1" href="index.html"
+                ><i class="fa-solid fa-house"></i
+              ></a>
+
+              <span>/</span>
+              <a class="a-2" href="contact.html">Account</a>
+              <span>/</span>
+              <a class="a-3" href="contact.html">Login</a>
+            </div>
+          </div>
+        </div>
+        <div class="row row2">
+          <div class="col">
+            <div class="item-card sign-in-container contact-form-container">
+              <div class="data">
+                <h2>Register Account</h2>
+                <p>
+                  If you already have an account with us, please login at the
+                  login page.
+                </p>
+                <p>Your Personal Details</p>
+                <form action="#">
+                  <label for="first-name"><span>*</span> First Name</label>
+                  <input type="text" id="name" name="first-name" required />
+
+                  <label for="last-name"><span>*</span> Last Name</label>
+                  <input type="text" id="last-name" name="last-name" required />
+
+                  <label for="E-mail"><span>*</span> E-mail</label>
+                  <input type="email" id="E-mail" name="lE-mail" required />
+
+                  <label for="Telephone"><span>*</span> Telephone</label>
+                  <input type="tel" id="tel" name="Telephone" required />
+
+                  <p class="p-password">Your Password</p>
+
+                  <label for="Password"><span>*</span> Password</label>
+                  <input type="password" placeholder="Password" id="Password" name="Password" required />
+
+                  <label for="Password-Confirm"><span>*</span> Password Confirm</label>
+                  <input type="password" id="Password-Confirm" placeholder="Password Confirm" name="Password-Confirm" required />
+                  <div class="news">
+                    <p class="news">Newsletter</p>
+
+                    <div class="radio">
+                        
+                        <label>Subscribe</label>
+                        <input type="radio" name="subscribe" value="yes"> Yes
+                        <input type="radio" name="subscribe" value="no" checked> No
+                  </div>
+               <div class="last-thing">
+                <label >
+                  I have read and agree to the <a href="#">Privacy Policy</a>
+                  <input type="checkbox">
+                </label>
+                <a href="#" class="b-t-n">Continue</a>
+               </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="sidebar">
+              <ul>
+                <li>
+                  <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-user-plus"></i> Register</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-unlock-alt"></i> Forgotten Password</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-user"></i> My Account</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-address-book"></i> Address Book</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-heart"></i> Wish List</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-history"></i> Order History</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-download"></i> Downloads</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-sync-alt"></i> Recurring payments</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-gift"></i> Reward Points</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-undo-alt"></i> Returns</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-money-check-alt"></i> Transactions</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-envelope"></i> Newsletter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section log in  -->
+
+
+
+
+      <!-- Start Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row row1">
+            <div class="col-lg-4">
+              <div class="item-card">
+                <div class="img-card">
+                  <img src="imgs/pet-logo.png" alt="Logo" />
+                </div>
+                <div class="data data-p-1">
+                  <p>
+                    If you have any questions, please contact us at
+                    Email@example.com
+                  </p>
+                  <span class="icon icon1"
+                    ><i class="fa-solid fa-map-pin"></i>
+                    <span class="name">Example Address 487, New York</span></span
+                  >
+                  <span class="icon icon2"
+                    ><i class="fa-solid fa-mobile"></i>
+                    <span class="name"> +0 123456700</span></span
+                  >
+                </div>
+                <div class="iconic">
+                  <span><i class="fa-brands fa-twitter"></i></span>
+                  <span><i class="fa-brands fa-facebook-f"></i></span>
+                  <span><i class="fa-brands fa-telegram"></i></span>
+                  <span><i class="fa-brands fa-instagram"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">My order</a></li>
+                  <li><a href="#">Compare</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Special</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="quick-links">
+                <h4>Infomation</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="work">
+                <h4>Working Hours</h4>
+                <p class="p-1">
+                  Monday - Saturday: 08 AM - 06 PM Sunday: 08 AM - 04 PM
+                </p>
+                <div class="row row-entire">
+                  <div class="col-lg-2">
+                    <div class="img-card">
+                      <img src="imgs/24-h-support.png" alt="Picture" />
+                    </div>
+                  </div>
+                  <div class="col-lg-10">
+                    <div class="data-entire">
+                      <p class="p_1">(+0)123456700</p>
+                      <p class="p_2">Got Questions? Call us 24/7</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row2">
+            <div class="col-lg-3">
+              <div class="data-footer2">
+                <p>© Barana, all rights reserved. Designed by Retrina</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="img-card1">
+                <img src="imgs/pet-image-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="row row3">
+            <div class="col-lg-12 lol-border"></div>
+          </div>
+        </div>
+      </footer>
+      <!-- Start Footer-Responsive -->
+      <footer class="footer-res">
+        <div class="container">
+          <div class="row row1">
+            <div class="col-md-4 col-sm-12">
+              <div class="item-card">
+                <div class="img-card">
+                  <img src="imgs/pet-logo.png" alt="Logo" />
+                </div>
+                <div class="data">
+                  <p>
+                    If you have any questions, please contact us at
+                    Email@example.com
+                  </p>
+                  <span class="icon icon1"
+                    ><i class="fa-solid fa-map-pin"></i>
+                    <span class="name">Example Address 487, New York</span></span
+                  >
+                  <span class="icon icon2"
+                    ><i class="fa-solid fa-mobile"></i>
+                    <span class="name"> +0 123456700</span></span
+                  >
+                </div>
+                <div class="iconic">
+                  <span><i class="fa-brands fa-twitter"></i></span>
+                  <span><i class="fa-brands fa-facebook-f"></i></span>
+                  <span><i class="fa-brands fa-telegram"></i></span>
+                  <span><i class="fa-brands fa-instagram"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="quick-links quick-links-hidden">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">My order</a></li>
+                  <li><a href="#">Compare</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Special</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="quick-links quick-links-hidden">
+                <h4>Infomation</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row row3 mt-2 mb-2 row--Border">
+            <div class="col-lg-12 lol-border"></div>
+          </div>
+          <div class="row row-call-img row-hours">
+            <div class="col-md-12 col-call-img">
+              <div class="work">
+                <h4>Working Hours :</h4>
+                <p class="p-1">Monday - Saturday: 08 AM - 06 PM</p>
+                <p class="p-1">Sunday: 08 AM - 04 PM</p>
+              </div>
+              <div class="row-entire">
+                <div class="img-card">
+                  <img src="imgs/24-h-support.png" alt="Picture" />
+                </div>
+                <div class="data-entire">
+                  <p class="p_1">(+0)123456700</p>
+                  <p class="p_2">Got Questions? Call us 24/7</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row3 mt-1 mb-1 row--Border">
+            <div class="col-lg-12 lol-border"></div>
+          </div>
+          <div class="row row2 row-last">
+            <div class="col-md-8 col-sm-6">
+              <div class="data-footer2">
+                <p>© Barana, all rights reserved. Designed by Retrina</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="img-card1">
+                <img src="imgs/pet-image-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
